@@ -30,7 +30,7 @@ jobs:
       #     pkg-manager: yarn 
       - checkout
       - run: npm install
-      - run: npm test
+      #- run: npm test
 
 workflows:
   # Below is the definition of your workflow.
